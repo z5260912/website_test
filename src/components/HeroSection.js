@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactPlayer from 'react-player'
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
@@ -7,9 +6,10 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      {/* <video src='./videos/video-1.mp4' autoPlay loop muted /> */}
-      <h1>BEGIN HERE</h1>
-      <p>What are you waiting for?</p>
+      {/* <video src='./videos/video-5.mp4' autoPlay loop muted /> */}
+      {/* <video url='https://youtu.be/UtUQsTWuRUo' autoPlay loop muted /> */}
+      <h1>WELCOME!</h1>
+      <p>to my personal website</p>
       <div className='hero-btns'>
         <Button
           className='btns'

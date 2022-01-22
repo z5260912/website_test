@@ -6,9 +6,9 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.blog,
+.other,
+.contact {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,29 +16,56 @@
   font-size: 3rem;
 }
 
-.services {
+.blog {
   background-image: url("../public/images/img-2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  /* below are background image configs */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
 
-.products {
+.other {
   background-image: url("../public/images/img-1.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  /* below are background image configs */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
 
-.sign-up {
+.contact {
   background-image: url("../public/images/img-8.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  /* below are background image configs */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
